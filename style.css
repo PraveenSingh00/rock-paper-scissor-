@@ -1,0 +1,156 @@
+﻿
+*{margin: 0;padding: 0;}
+body{
+    overflow: hidden;
+}
+.navsection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.logo{
+    background-image:linear-gradient(to top, white, #c3f5ff, white);
+
+    font-family: 'Monofett', cursive;
+    font-family: 'Rubik', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, white 80%, #c3f5ff 20%);
+    
+}
+
+.container{
+    width:80%; 
+    margin-left:10%;
+    text-align:center; 
+    clear:both;
+    }
+.Border{
+    position:relative; 
+    width:80%; 
+    height:450px; 
+    left:10%; 
+    border:white; 
+    clear:both
+    }
+.Buttons{
+    position:relative; 
+    float:left; 
+    width:20%; 
+    margin-left:4%; 
+    top:80px; 
+    height:250px;
+    }
+.MoveButton1{
+    width:100px; 
+    height:35px; 
+    background-color:#008080; 
+    clear:both; 
+    margin-top:25px; 
+    border-radius:10px;
+    color: #000;
+    border: 2px solid #008080;
+    transition-duration: 0.8s;
+}
+.MoveButton1:hover {
+    background-color: white;
+    color: #008080;
+  }
+  
+.MoveButton2{
+    width:100px; 
+    height:35px; 
+    background-color:#F4A460; 
+    clear:both; 
+    margin-top:25px; 
+    border-radius:10px;
+    color: #000;
+    border: 2px solid #F4A460;
+    transition-duration: 0.8s;
+}
+.MoveButton2:hover {
+    background-color: white ;
+    color: #F4A460;
+}
+.MoveButton3{
+    width:100px; 
+    height:35px; 
+    background-color:#FA8072; 
+    clear:both; 
+    margin-top:25px; 
+    border-radius:10px;
+    color: #000;
+    border: 2px solid #FA8072;
+    transition-duration: 0.8s;
+
+}
+.MoveButton3:hover {
+    background-color:white ;
+    color: #FA8072;
+}
+.Player1Move{
+    position:relative; 
+    float:left; width:20%; 
+    margin-left:4%; 
+    top:30px; 
+    height:250px;
+}
+.Player2Move{
+    position:relative; 
+    float:left; 
+    width:20%; 
+    margin-left:4%; 
+    top:30px; 
+    height:250px;}
+.DispMove{
+    width:90%; 
+    height:170px; 
+    margin-left:5%; 
+    border:2px gray solid; 
+    padding-top:10px
+}
+.DispMove img{
+    width:150px; 
+    height:150px
+}
+.Scores{
+    position:relative; 
+    float:left; 
+    width:20%; 
+    margin-left:4%; 
+    top:110px; 
+    height:250px; 
+    text-align:right; 
+    right:30px; 
+    font-size:large;
+    line-height: 2.5;
+}
+.Result{
+    font-size:xx-large; 
+    position:relative; 
+    clear:both; 
+    top:50px; 
+    height:70px;
+}
+.NewMove{
+    width:150px; 
+    height:50px;  
+    clear:both; 
+    margin-top:35px; 
+    border-radius:10px;
+    background-color: #ff033e;
+    color: white;
+    border: 2px solid #ff033e;
+    transition-duration: 01s;
+}
+
+.NewMove:hover {
+    background-color: #e7e7e7;
+    color: tomato;
+}
